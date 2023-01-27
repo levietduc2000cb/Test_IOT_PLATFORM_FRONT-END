@@ -26,15 +26,15 @@ const DetailCustomer = () => {
     },
   ];
   return (
-    <div className="bg-[#F0F3F4] pt-6 px-6">
+    <div className="bg-[#F0F3F4] px-6 pt-6">
       <div>
-        <div className="bg-[#F6F8F8] h-10 flex items-center text-base px-3">
+        <div className="flex h-10 items-center bg-[#F6F8F8] px-3 text-base">
           Customer Details
         </div>
-        <div className="bg-white px-3 min-h-full">
+        <div className="min-h-full bg-white px-3">
           <div className="gridCustom">
             <div></div>
-            <div className="text-base font-bold leading-5 flex items-center text-black py-5">
+            <div className="flex items-center py-5 text-base font-bold leading-5 text-black">
               <FaRocket className="mr-1" />
               Customer Configuration
             </div>
@@ -50,7 +50,7 @@ const DetailCustomer = () => {
           })}
           <div className="gridCustom">
             <div></div>
-            <div className="text-base font-bold leading-5 flex items-center text-black py-5">
+            <div className="flex items-center py-5 text-base font-bold leading-5 text-black">
               <FaInfoCircle className="mr-1" />
               Customer Information
             </div>

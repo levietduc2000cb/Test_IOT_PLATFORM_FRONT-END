@@ -2,9 +2,9 @@ import React from 'react';
 
 const DashBoardTable = () => {
   return (
-    <div className="overflow-x-auto sm:rounded-lg shadow-xl">
-      <table className="w-full text-sm text-left text-gray-500 ">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50">
+    <div className="overflow-x-auto shadow-xl sm:rounded-lg">
+      <table className="w-full text-left text-sm text-gray-500 ">
+        <thead className="bg-gray-50 text-xs uppercase text-gray-700">
           <tr>
             <th scope="col" className="py-3 px-6">
               Device name
@@ -18,20 +18,20 @@ const DashBoardTable = () => {
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-white border-b  ">
+          <tr className="border-b bg-white  ">
             <th
               scope="row"
-              className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+              className="whitespace-nowrap py-4 px-6 font-medium text-gray-900 "
             >
               Device 1
             </th>
             <td className="py-4 px-6 text-center">12</td>
             <td className="py-4 px-6 text-center">16</td>
           </tr>
-          <tr className="bg-white border-b ">
+          <tr className="border-b bg-white ">
             <th
               scope="row"
-              className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap "
+              className="whitespace-nowrap py-4 px-6 font-medium text-gray-900 "
             >
               Device 2
             </th>
